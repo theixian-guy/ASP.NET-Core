@@ -1,0 +1,21 @@
+﻿@page "{restaurantId}"
+@model DeleteModel
+@{
+
+    ViewData["Title"] = "Delete";
+
+        <!-- If we don't use the template page Pages/Shared/_Layout.cshtml-->
+        <!-- Layout = null; -->
+        <!-- Also if we don't use a layout page we need DOCTYPE/html/head/body tags-->
+        <!-- If we use a template page basic tags are in the layout page-->
+}
+
+    <h2>Delete!</h2>
+    <div class="alert alert-danger">
+        Are you sure you want to delete @Model.Restaurant.Name?
+    </div>
+    <form method="post">
+        <!-- If we don't provide a redirect page the form will redirect to the same page -->
+        <button type="submit" class="btn btn-danger">Yes!</button>
+        <a asp-page="List" class="btn btn-default">Cancel</a>
+    </form>

@@ -1,0 +1,3 @@
+C:\dev\OdeToFood\OdeToFood_v5\OdeToFood.Core\bin\Debug\netcoreapp2.1\publish\OdeToFood.Core.dll
+C:\dev\OdeToFood\OdeToFood_v5\OdeToFood.Core\bin\Debug\netcoreapp2.1\publish\OdeToFood.Core.deps.json
+C:\dev\OdeToFood\OdeToFood_v5\OdeToFood.Core\bin\Debug\netcoreapp2.1\publish\OdeToFood.Core.pdb

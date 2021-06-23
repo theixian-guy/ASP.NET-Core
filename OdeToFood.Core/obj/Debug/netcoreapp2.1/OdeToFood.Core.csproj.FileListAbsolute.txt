@@ -1,0 +1,17 @@
+C:\dev\OdeToFood\OdeToFood_v5\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.deps.json
+C:\dev\OdeToFood\OdeToFood_v5\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.dll
+C:\dev\OdeToFood\OdeToFood_v5\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.pdb
+C:\dev\OdeToFood\OdeToFood_v5\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.AssemblyInfoInputs.cache
+C:\dev\OdeToFood\OdeToFood_v5\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.AssemblyInfo.cs
+C:\dev\OdeToFood\OdeToFood_v5\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.csproj.CoreCompileInputs.cache
+C:\dev\OdeToFood\OdeToFood_v5\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.dll
+C:\dev\OdeToFood\OdeToFood_v5\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.pdb
+C:\dev\OdeToFood\OdeToFood_v5_MySQL\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.deps.json
+C:\dev\OdeToFood\OdeToFood_v5_MySQL\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.dll
+C:\dev\OdeToFood\OdeToFood_v5_MySQL\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.pdb
+C:\dev\OdeToFood\OdeToFood_v5_MySQL\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.AssemblyInfoInputs.cache
+C:\dev\OdeToFood\OdeToFood_v5_MySQL\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.AssemblyInfo.cs
+C:\dev\OdeToFood\OdeToFood_v5_MySQL\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.csproj.CoreCompileInputs.cache
+C:\dev\OdeToFood\OdeToFood_v5_MySQL\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.dll
+C:\dev\OdeToFood\OdeToFood_v5_MySQL\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.pdb
+C:\dev\OdeToFood\OdeToFood_v5_MySQL\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.csprojAssemblyReference.cache

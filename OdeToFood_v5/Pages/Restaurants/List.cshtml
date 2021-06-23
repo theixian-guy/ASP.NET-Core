@@ -1,0 +1,40 @@
+﻿@page
+@model ListModel
+@{
+    ViewData["Title"] = "Restaurants";
+}
+<h1>Restaurants</h1>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" 
+                   asp-for="SearchTerm"/>
+            <span class="input-group-btn">
+                <button class="btn btn-default">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+
+</form>
+
+@foreach(var restaurant in Model.Restaurants)
+            {
+    <!-- The partial tag is processed on the server. There is no partial tag sent to the client -->
+    <!-- It will be replaced with code from the _Summary page -->
+                <partial name="_Summary" model="restaurant" />
+            }
+
+<!--Creating a restaurant using the Edit form.
+    We don't want to duplicate code between eidt and create.'
+    Edit form requires a RestaurantId
+    We can make the restaurantId optional placing a question 
+    mark at the end in *.cshtml-->
+<a asp-page=".\Edit" class="btn btn-primary">Add New</a>
+
+@section footer {
+    <div>@Model.Message</div>
+}
+<!-- <div>@Model.Message</div> -->

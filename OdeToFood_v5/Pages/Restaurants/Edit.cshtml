@@ -1,0 +1,56 @@
+﻿@page "{restaurantId:int?}"
+
+
+@model OdeToFood_v5.Pages.Restaurants.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!-- If we refresh the paga we get a warning that the action we
+    just dit will be repeated. If we saved restaurant data  it will be
+    saved again if we had a credit card order the order will be billed twice
+    On a Page with Post request user must be redirected after
+    the post request has been done. Post requests modify data on the server.
+    We should redirect user to Detail request to let himi see his modifications.
+    The Detail page uses Get request which is save
+    Now when we refresh we refresh a get request-->
+
+
+<h2>Edit @Model.Restaurant.Name</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Restaurant.Id" />
+
+    <div class="form-group">
+        <label asp-for="Restaurant.Location"></label>
+        <input asp-for="Restaurant.Location" class="form-control" />
+        <!-- output validation messages that might be in ModelState variable for Restaurant.Location-->
+        <span class="text-danger" asp-validation-for="Restaurant.Location"></span>
+
+    </div>
+    <div class="form-group">
+        <label>@*( Model.Restaurant.Name.StartsWith("C")?"Anca" :"Radu")*@</label> 
+        <label asp-for="Restaurant.Name"></label>
+        <input asp-for="Restaurant.Name" class="form-control" />
+        <!-- output validation messages that might be in ModelState variable for Restaurant.Name-->
+        <span class="text-danger" asp-validation-for="Restaurant.Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Restaurant.Cuisine"></label>
+        <select class="form-control" asp-for="Restaurant.Cuisine"
+                asp-items="Model.Cuisines"></select>
+        <!-- output validation messages that might be in ModelState variable for Restaurant.Cuisine-->
+        <span class="text-danger" asp-validation-for="Restaurant.Cuisine"></span>
+        <!-- asp-for take a value from Model. so Model. is assumed and doesn't need to be mentioned -->
+        <!-- aps-items takes parameter from anywhere so Model. must be specified. -->
+        <!-- asp-for works with [BindProperty]-->
+
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+<!-- Run edit name location fields validation code on client side (JavaScript code) -->
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+}
